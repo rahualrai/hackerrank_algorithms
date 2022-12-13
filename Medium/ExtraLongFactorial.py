@@ -3,3 +3,5 @@ def extraLongFactorials(n):
     for i in range(1, n+1):
         result *= i
     print(result)
+    
+# time complexity: O(n)

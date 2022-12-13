@@ -15,3 +15,5 @@ def organizingContainers(container):
     # otherwise, it is not
     else:
         return "Impossible"
+
+# time complexity: O(n^2)

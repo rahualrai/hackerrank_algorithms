@@ -19,3 +19,5 @@ def formingMagicSquare(s):
     
     # Return the minimum difference from the list of differences
     return min(differences)
+
+# time complexity: O(n^2)
