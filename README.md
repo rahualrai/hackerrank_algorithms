@@ -2,6 +2,8 @@
 
 This repository contains my solutions to various algorithm problems on [HackerRank](https://www.hackerrank.com/).
 
+Check out my [Hackerrank Profile](https://www.hackerrank.com/rahual_rai).
+
 ## Languages Used
 
 The solutions are written in Python3.
