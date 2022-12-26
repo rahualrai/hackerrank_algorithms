@@ -22,3 +22,24 @@ def caesarCipher(s, k):
             cipher += char
             
     return cipher
+
+def caesarCipher(s, k):
+    cipher = "" 
+
+    for i in range(len(s)): 
+  
+        # uppercase characters 
+        if (ord(s[i]) >= 65 and
+            ord(s[i]) <= 90): 
+            cipher += chr((ord(s[i]) + k-65) % 26 + 65) 
+  
+        # lowercase characters 
+        elif (ord(s[i]) >= 97 and
+              ord(s[i]) <= 122): 
+            cipher += chr((ord(s[i]) + k - 97) % 26 + 97) 
+  
+        # do not encrypt 
+        else: 
+            cipher += s[i] 
+
+    return cipher
